@@ -1,0 +1,49 @@
+1D_direccion = +3,-3 mo=15m,60m,1D
+1H_direccion = +3,-3 mo=15m,60m este mejor que el 1D
+
+-1H_direccion = 0 mo=med,1D,1d-15 PERO OPERANDO AL CONTRARIO
+
+
+gap.isnull() (no hay gap) mo=1D,1D-15 PERO OPERANDO AL CONTRARIO
+
+
+suma_direcciones >= +5,-5 mo=15m,60,med,1D,1D-15
+-suma_direcciones = +1,-1 mo=1D-15 PERO OPERANDO AL CONTRARIO
+
+
+-1H_tipo = A mo=15m
+
+-1D_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+-1H_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+
+
+***********************************************************************************************************
+FUNCIONAN TMB EN FEBRERO:
+-1H_direccion = 0 mo=med,1D,1d-15 PERO OPERANDO AL CONTRARIO
+[[PERO NO EN mo=med, solo en 1D y 1d-15]]
+
+-suma_direcciones = +1,-1 mo=1D-15 PERO OPERANDO AL CONTRARIO
+
+-1H_tipo = A mo=15m
+
+-1D_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+-1H_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+
+
+
+
+**********************************************************************************************************
+FUNCIONAN *muy bien (y consistentes con parametros parecidos)* EN EL AGREGADO DE AMBOS MESES CONJUNTOS:
+-1H_direccion = +3,-3 mo=15m
+-1H_direccion = 0 mo=1d-15 PERO OPERANDO AL CONTRARIO
+
+suma_direcciones >= +5,-5 mo=15m,60,med,1D,1d-15
+-suma_direcciones = +1,-1 mo=1D,1d-15 PERO OPERANDO AL CONTRARIO
+
+-1H_tipo = A mo=15m
+
+-1D_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+-1H_tipo = A mo=1D-15 PERO OPERANDO AL CONTRARIO
+
+
+
